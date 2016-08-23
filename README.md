@@ -10,7 +10,7 @@ Use this for csv files generated using a Bentobox system. It uses a moving windo
 - calculate_energy_oscope.py
 Use this for csv files generated using an Oscilloscope. It uses a moving window of size 10, and a window size of 100 to calculate the initial offset.
 
-The following example shows 
+The following example shows one way to use the scripts. 
 
 ```
 cd data
