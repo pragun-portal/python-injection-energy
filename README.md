@@ -6,11 +6,9 @@ Place file in a folder containing all the csv files that need to be processed. T
 
 The repository contains two types of python scripts:
 - calculate_energy_bento.py
-Use this for csv files generated using a Bentobox system.
-It uses a moving window of size 100 on account for the different sampling rate on a Bentobox system, and a window size of 10 to calculate the initial offset.
+Use this for csv files generated using a Bentobox system. It uses a moving window of size 100 on account for the different sampling rate on a Bentobox system, and a window size of 10 to calculate the initial offset.
 - calculate_energy_oscope.py
-Use this for csv files generated using an Oscilloscope
-It uses a moving window of size 10, and a window size of 100 to calculate the initial offset.
+Use this for csv files generated using an Oscilloscope. It uses a moving window of size 10, and a window size of 100 to calculate the initial offset.
 
 The following example shows 
 
